@@ -1,55 +1,22 @@
 {
   "name": "tabs",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "express": "^4.17.1",
-    "graphql": "^15.5.1",
-    "mongodb": "^4.0.0",
-    "mongoose": "^5.13.2",
-    "node": "^16.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Emilyrh1058/Tabs.git"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "cd server && npm start",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd client && npm i",
+    "seed": "cd server && npm run seed",
+    "heroku-postbuild": "cd client && npm run build"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Emilyrh1058/Tabs/issues"
+  "dependencies": {
+    "if-env": "^1.0.4"
   },
-  "homepage": "https://github.com/Emilyrh1058/Tabs"
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
 }

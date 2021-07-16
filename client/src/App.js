@@ -8,10 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-<<<<<<< HEAD
-=======
-        
->>>>>>> landing
+        <logo></logo>
         <p>
           Intro here
         </p>
