@@ -8,7 +8,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
+        <logo></logo>
+=======
         
+>>>>>>> 442d4f60687a271f37b937116e4903f6de209487
         <p>
           Intro here
         </p>
