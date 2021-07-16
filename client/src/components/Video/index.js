@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+// import Smoke from '..'
 
 // import classes from './backgroundVideo.module.css';
 
 const backgroundVideo = () => {
+
+    // <video autoPlay loop muted>
+    //     <source src={smoke} type='video/mp4' />
+    // </video>
+
     const videoSource = "https://www.videezy.com/fire-and-smoke/13242-hypnotic-spirals-of-white-controlled-smoke-going-up-on-darkness-in-4k"
     return (
         <div
