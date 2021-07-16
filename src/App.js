@@ -1,12 +1,12 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import logo from './assets/images/goldkey.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        
         <p>
           Intro here
         </p>
@@ -18,6 +18,7 @@ function App() {
         >
           Register
         </a>
+        
         <a
           className="App-link"
           href=""
