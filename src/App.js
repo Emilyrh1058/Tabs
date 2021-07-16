@@ -2,6 +2,7 @@
 import logo from './assets/images/goldkey.png';
 import './App.css';
 import './assets/backgroundVideo/index';
+//import backgroundVideo from './assets/backgroundVideo/index';
 
 function App() {
   return (
