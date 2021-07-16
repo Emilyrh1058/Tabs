@@ -1,4 +1,5 @@
-//import logo from './logo.svg';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import logo from './assets/images/goldkey.png';
 import './App.css';
 import './assets/backgroundVideo/index';
 
@@ -6,16 +7,29 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
+=======
+        
+>>>>>>> landing
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Intro here
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Register
+        </a>
+        
+        <a
+          className="App-link"
+          href=""
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sign Up
         </a>
       </header>
     </div>
