@@ -1,12 +1,13 @@
 //import logo from './logo.svg';
 import './App.css';
+import backgroundVideo from './assets/backgroundVideo/index';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       
-        <p>
+       <backgroundVideo></backgroundVideo>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,7 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
