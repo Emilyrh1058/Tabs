@@ -3,7 +3,7 @@
 import "./App.css";
 // import backgroundVideo from "./assets/backgroundVideo";
 import Background from "./components/Background";
-import Login from "./components/Login";
+//import Login from "./components/Login";
 // import './assets/backgroundVideo/index';
 //import backgroundVideo from './assets/backgroundVideo/index';
 
