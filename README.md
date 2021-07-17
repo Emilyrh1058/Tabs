@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+  *** DON'T DELETE!  "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
