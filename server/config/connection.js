@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/tabs', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

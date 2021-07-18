@@ -18,6 +18,7 @@ const noteSchema = new Schema(
       type: String,
       required: true
     },
+    reactions: [reactionSchema]
   },
   {
     toJSON: {
@@ -26,10 +27,10 @@ const noteSchema = new Schema(
   }
 );
 
-// noteSchema.virtual('reactionCount').get(function() {
-//   return this.reactions.length;
-// });
+noteSchema.virtual('reactionCount').get(function() {
+  return this.reactions.length;
+});
 
-const Thought = model('Thought', noteSchema);
+const Note = model('Note', noteSchema);
 
-module.exports = Thought;
+module.exports = Note;

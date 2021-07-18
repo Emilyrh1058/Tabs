@@ -50,7 +50,11 @@ db.once('open', async () => {
       { $push: { notes: createdNote._id } }
     );
 
+<<<<<<< HEAD
     createdNotes.push(createdNote);
+=======
+    createdNotess.push(createdNotes);
+>>>>>>> develop
   }
 
   // create reactions
