@@ -5,11 +5,7 @@ import { Container } from 'react-bootstrap';
 import "./App.css";
 // import backgroundVideo from "./assets/backgroundVideo";
 import Background from "./components/Background";
-<<<<<<< HEAD
-//import Login from "./components/Login";
-=======
 // import Login from "./components/Login";
->>>>>>> 3233ef326f19ea9c5917fcd23238789e2f0edcfa
 // import './assets/backgroundVideo/index';
 //import backgroundVideo from './assets/backgroundVideo/index';
 import Cards from "./components/Cards/index";
