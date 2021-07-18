@@ -1,14 +1,15 @@
 const cardData = [
     {
         firstName: 'Michael',
-        lastName: 'Roswell',
-        age: 35,
+        lastName: 'McMann',
+        note: 'Loves The Office.',
+        age: 40,
         city: 'Houston',
         state: 'Texas',
         phoneNumber: '555-555-5555',
         notes: [
             {
-                info: 'Did not tip well.'
+                info: 'Owns a cat named Sassy.'
             }
         ]
     },
@@ -16,6 +17,7 @@ const cardData = [
         firstName: 'Ashley',
         lastName: 'Madison',
         age: 55,
+        note: 'Her husband is still in the picture, but it\'s cool.',
         city: 'Portland',
         state: 'Oregon',
         phoneNumber: '555-555-1111',
@@ -28,6 +30,7 @@ const cardData = [
     {
         firstName: 'Austin',
         lastName: 'Sanchez',
+        note: 'Hipster who drinks IPAs',
         age: 25,
         city: 'Austin',
         state: 'Texas',

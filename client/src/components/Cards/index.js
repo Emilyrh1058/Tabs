@@ -1,13 +1,15 @@
-import React, {useState, useEffect} from 'react';
-import cardData from '../../utils/cardData';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import Nav from '../Nav';
+import Cards from './Cards';
 
-function Cards(props) {
- console.log(cardData);
-    return (
-    <div> 
-
-    </div>
-    )
-};
+const cards = () => (
+    <body>
+        <Switch>
+            <Route exact path='/contacts' component={Cards} />
+            <Route exact path='/contacts' component={Nav} />
+        </Switch>
+    </body>
+)
 
 export default Cards;
