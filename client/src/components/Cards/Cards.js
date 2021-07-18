@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import cardData from '../../utils/cardData';
+import './cards.css';
 import { Card, ListGroup, ListGroupItem, Row, Col } from 'react-bootstrap';
-
+import Fire from '../../assets/images/fire-heart.png';
+import Ice from '../../assets/images/ice.png';
 
 function Cards(props) {
  console.log(cardData);
@@ -22,8 +24,10 @@ function Cards(props) {
     <ListGroupItem> {data.phoneNumber} </ListGroupItem>
   </ListGroup>
   <Card.Body>
-    <Card.Link href="#">Card Link</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+    <Card.Link className="icons" href="#"><img src={Fire} width="40" height="40" />Fire</Card.Link>
+    <Card.Link className="icons" href="#"><img src={Ice} width="40" height="40"/>Ice</Card.Link>
+    <Card.Link href="#">Add</Card.Link>
+    <Card.Link href="#">Del</Card.Link>
   </Card.Body>
 </Card>
     </Col>
