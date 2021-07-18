@@ -10,11 +10,11 @@ import Background from "./components/Background";
 //import backgroundVideo from './assets/backgroundVideo/index';
 import Cards from "./components/Cards/index";
 
+
 function App() {
   return (
     <Container fluid>
-      <Cards />
-      {/* <Background></Background>
+      <Background></Background>
       <p>Intro here</p>
       <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
         Register
@@ -22,7 +22,7 @@ function App() {
 
       <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
         Sign Up
-      </a> */}
+      </a>
     </Container>
   );
 }
