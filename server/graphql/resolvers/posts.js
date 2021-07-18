@@ -27,12 +27,21 @@ module.exports = {
     },
   },
   Mutation: {
-    async createPost(_, { body }, context) {
+    async createPost(
+      _,
+      { firstName, lastName, age, city, state, phone },
+      context
+    ) {
       const user = checkAuth(context);
       console.log(user);
 
       const newPost = new Post({
-        body,
+        firstName,
+        lastName,
+        age,
+        city,
+        state,
+        phone,
         user: user.id,
         username: user.username,
         createdAt: new Date().toISOString(),
