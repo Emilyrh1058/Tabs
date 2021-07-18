@@ -14,9 +14,7 @@ function App() {
   return (
     <Router>
       <Route exact path="/" component={Background} />
-      <Route exact path="/" component={Home} />
       <Route exact path="/contacts" component={Cards} />
-      <Route exact path="/contacts" component={Nav} />
     </Router>
   );
 }
