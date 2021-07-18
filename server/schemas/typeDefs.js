@@ -11,9 +11,7 @@ type User {
   _id: ID
   username: String
   email: String
-  friendCount: Int
   notes: [Note]
-  friends: [User]
 }
 type Query {
   me: User
@@ -26,8 +24,6 @@ type Mutation {
   login(email: String!, password: String!): Auth
   addUser(username: String!, email: String!, password: String!): Auth
   addNote(noteText: String!): Note
-  addReaction(noteId: ID!, reactionBody: String!): Note
-  addFriend(friendId: ID!): User
 }
 type Auth {
   token: ID!
