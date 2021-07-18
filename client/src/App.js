@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { ApolloProvider } from '@apollo/react-hooks';
+import { ApolloProvider } from '@apollo/client';
 import ApolloClient from 'apollo-boost';
 // import Footer from './components/Footer';
 // import NoMatch from './pages/NoMatch';
 import "./App.css";
 import Background from "./components/Background";
-import Login from "./components/Login";
+import LoginForm from "./pages/LoginForm";
 import Signup from './pages/Signup';
-
+import LoginPage from './components/Login'
 
 const client = new ApolloClient({
   request: operation => {
@@ -29,10 +29,10 @@ function App() {
       <ApolloProvider client={client}>
         <Router>
           <div className="flex-column justify-flex-start min-100-vh">
-            <Login />
+            <LoginPage />
             <div className="container">
               <Switch>
-                <Route exact path="/login" component={Login} />
+                <Route exact path="/login" component={LoginForm} />
                 <Route exact path="/signup" component={Signup} />
                 {/* <Route exact path="/profile/:username?" component={Profile} /> */}
 
