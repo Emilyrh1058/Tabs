@@ -111,10 +111,10 @@ textarea{
   resize: none;
 }
 
-.footer, .footer img a {
+/* .footer, .footer img a {
   text-align: center;
   padding-top: 50px;
-}
+} */
 
 .container {
   width: 70%;
