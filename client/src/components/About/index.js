@@ -1,6 +1,4 @@
-import React from "react";
-import backgroundVid from "../../assets/images/smoke.mp4";
-// import Footer from "../Footer";
+import React from "react";// import Footer from "../Footer";
 
 function About() {
   return (
@@ -8,12 +6,6 @@ function About() {
       <div className="container d-flex flex-column text-center">
         <div className="p-2">
           <h1 id="about">TABS</h1>
-          {<video
-            src={backgroundVid}
-            className="my-2"
-            style={{ width: "100%" }}
-            alt="smoke"
-          />}
         </div>
         <div className="p-2">
           <p className="aboutMe">

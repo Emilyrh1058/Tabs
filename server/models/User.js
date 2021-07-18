@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
@@ -46,3 +47,15 @@ userSchema.methods.isCorrectPassword = async function(password) {
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
+=======
+const { model, Schema } = require("mongoose");
+
+const userSchema = new Schema({
+  username: String,
+  password: String,
+  email: String,
+  createdAt: String,
+});
+
+module.exports = model("User", userSchema);
+>>>>>>> develop

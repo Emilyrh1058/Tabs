@@ -1,5 +1,5 @@
 import React from "react";
-import Smoke from "../video/smoke.mp4";
+import Smoke from "../video/smoke2.mp4";
 
 const Background = () => {
   return (
@@ -17,7 +17,7 @@ const Background = () => {
           objectFit: "cover",
           transform: "translate(-50%, -50%)",
           zIndex: "-1",
-          opacity: "0.5",
+          opacity: "0.95",
         }}
       >
         <source src={Smoke} type="video/mp4" />
