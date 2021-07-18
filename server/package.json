@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node server.js",
+    "seed": "node seeders/seeds.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.0.1",
+    "apollo-server-express": "^2.12.0",
+    "express": "^4.17.1",
     "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.3"
   },
   "devDependencies": {
