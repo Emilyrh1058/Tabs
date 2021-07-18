@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 import "./App.css";
 import Background from "./components/Background";
 // import Login from "./components/Login";
-import Cards from "./components/Cards/index";
+import Cards from "./components/Cards/";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 
