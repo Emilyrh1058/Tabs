@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Nav from '../Nav';
-import Cards from './Cards';
+//import Cards from './Cards.js';
 
-const cards = () => (
+const Cards = () => (
     <body>
         <Switch>
             <Route exact path='/contacts' component={Cards} />
