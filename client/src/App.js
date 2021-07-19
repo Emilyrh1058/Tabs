@@ -1,14 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import { ApolloProvider } from '@apollo/client';
 import ApolloClient from 'apollo-boost';
-// import Footer from './components/Footer';
-// import NoMatch from './pages/NoMatch';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container } from "react-bootstrap";
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./App.css";
 import Background from "./components/Background";
 import LoginForm from "./pages/LoginForm";
 import Signup from './pages/Signup';
 import LoginPage from './components/Login'
+import Cards from "./components/Cards/";
+import Home from "./components/Home";
+import Nav from "./components/Nav";
 
 const client = new ApolloClient({
   request: operation => {
@@ -35,15 +39,14 @@ function App() {
                 <Route exact path="/login" component={LoginForm} />
                 <Route exact path="/signup" component={Signup} />
                 {/* <Route exact path="/profile/:username?" component={Profile} /> */}
-
+                <Route exact path="/" component={Background} />
+                <Route exact path="/contacts" component={Cards} />
                 {/* <Route component={NoMatch} /> */}
               </Switch>
-            </div>
-            {/* <Footer /> */}
+            </div>  
           </div>
         </Router>
       </ApolloProvider>
-      
       <main>
         <Background></Background>
         {/* <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
@@ -53,6 +56,7 @@ function App() {
           Log In
         </a> */}
       </main>
+
     </React.Fragment>
   );
 }
