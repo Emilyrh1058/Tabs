@@ -1,10 +1,6 @@
 import React from "react";
-<<<<<<< HEAD
-// import { Link } from "react-router-dom";
-=======
 import { Link } from "react-router-dom";
 import Auth from '../../utils/auth';
->>>>>>> login
 
 const Login = () => {
   const logout = event => {
