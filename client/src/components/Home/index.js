@@ -1,7 +1,7 @@
 // import React from "react";
 import React, { useState, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
-import NavBar from "../Nav";
+// import NavBar from "../Nav";
 import About from "../About";
 // import Projects from '../Login';
 // import Contact from "../Contact";
@@ -21,18 +21,12 @@ function Home() {
     switch (currentPage.navLink) {
       case "About":
         return <About />;
-      // case 'Login':
-      //     return <Login/>;
-      //   case "Contact":
-      //     return <Contact />;
-      //   default:
-      //     return <About />;
     }
   };
 
   return (
     <div>
-      <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      {/* <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} /> */}
       <div>{writePage(currentPage)}</div>
     </div>
   );
