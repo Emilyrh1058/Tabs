@@ -13,6 +13,21 @@ db.once('open', async () => {
     userData.push({ username, email, password });
   }
   const createdUsers = await User.collection.insertMany(userData);
+
+  const postData = [];
+  for (let i = 0; i < 50; i += 1) {
+    const firstName = faker.internet.firstName();
+    const lastName = faker.internet.lastName();
+    const lastName = faker.internet.lastName();
+    const lastName = faker.internet.lastName();
+    const lastName = faker.internet.lastName();
+    const lastName = faker.internet.lastName();
+    const lastName = faker.internet.lastName();
+    const lastName = faker.internet.lastName();
+    userData.push({ username, email, password });
+  }
+  const createdPost = await User.collection.insertMany(postData);
+
   // create notes
   let createdNotes = [];
   for (let i = 0; i < 100; i += 1) {
