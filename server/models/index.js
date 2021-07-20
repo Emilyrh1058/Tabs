@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const postResolvers = require("./posts");
 const userResolvers = require("./users");
 
@@ -7,9 +6,7 @@ module.exports = {
     ...postResolvers.Query,
   },
 };
-=======
-const User = require('./User');
-const Note = require('./Note');
+// const User = require('./User');
+// const Note = require('./Note');
 
 module.exports = { User, Note };
->>>>>>> login

@@ -21,18 +21,24 @@ const Login = (props) => {
   // submit form
   const handleFormSubmit = async event => {
     event.preventDefault();
-  
+
     try {
       const { data } = await login({
         variables: { ...formState }
       });
-  
+
       Auth.login(data.login.token);
     } catch (e) {
       console.error(e);
     }
-  };
 
+    // clear form values
+    setFormState({
+      email: '',
+      password: ''
+    });
+  };
+  
   return (
     <main className='flex-row justify-center mb-4'>
       <div className='col-12 col-md-6'>

@@ -17,7 +17,7 @@ const Signup = () => {
       [name]: value,
     });
   };
-
+  
   // submit form
   const handleFormSubmit = async event => {
     event.preventDefault();
