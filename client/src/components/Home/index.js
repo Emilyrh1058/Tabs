@@ -1,7 +1,7 @@
 // import React from "react";
 import React, { useState, useEffect } from "react";
-//import { Switch, Route } from "react-router-dom";
-//import NavBar from "../Nav";
+import { Switch, Route } from "react-router-dom";
+// import NavBar from "../Nav";
 import About from "../About";
 // import Projects from '../Login';
 // import Contact from "../Contact";

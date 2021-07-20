@@ -4,15 +4,21 @@ import { ApolloProvider } from '@apollo/client';
 import ApolloClient from 'apollo-boost';
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { Container } from "react-bootstrap";
+<<<<<<< HEAD
 /* eslint-disable jsx-a11y/anchor-is-valid */
+=======
+>>>>>>> login
 import "./App.css";
 import Background from "./components/Background";
 import LoginForm from "./pages/LoginForm";
 import Signup from './pages/Signup';
 import LoginPage from './components/Login'
 import Cards from "./components/Cards/";
+<<<<<<< HEAD
 // import Home from "./components/Home";
 // import Nav from "./components/Nav";
+=======
+>>>>>>> login
 
 const client = new ApolloClient({
   request: operation => {

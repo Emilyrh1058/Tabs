@@ -1,7 +1,6 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import Nav from '../Nav';
-//import Cards from './Cards.js';
+// import React, { useState, useEffect } from "react";
+import cardData from "../../utils/cardData";
+import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
 
 const Cards = () => (
     <body>
