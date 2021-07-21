@@ -1,7 +1,9 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
+  "proxy": "http://localhost:3000",
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -22,6 +24,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
-  },
-  "description": ""
+  }
 }
