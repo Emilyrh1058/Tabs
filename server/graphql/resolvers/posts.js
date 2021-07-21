@@ -29,7 +29,7 @@ module.exports = {
   Mutation: {
     async createPost(
       _,
-      { firstName, lastName, age, city, state, phone },
+      { firstName, lastName, note, age, city, state, phone },
       context
     ) {
       const user = checkAuth(context);
@@ -38,6 +38,7 @@ module.exports = {
       const newPost = new Post({
         firstName,
         lastName,
+        note,
         age,
         city,
         state,
