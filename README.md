@@ -1,18 +1,59 @@
-# Getting Started with Create React App
+# Tabs
+[![Issues](https://img.shields.io/github/issues/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs)](https://github.com/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs/issues) [![Issues](https://img.shields.io/github/contributors/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs)](https://github.com/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs/graphs/contributors) ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 
-  *** DON'T DELETE!  "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+
+## Description
+A react application that works like a little black book for a user that wants to keep contacts in a location with a password to protect it. The user is also allowed to mark the contact as on "Fire" or on "Ice". 
+
+Hello?
+Hey hun, what’s up, what are you doing?
+Not much, I was just hanging out and was thinking about everything going on. I’m so excited to start dating again.
+RIGHT?!? Getting back out there.
+Yeah, but I’m having trouble keeping up with the people I’m dating. I went on this one date, and I kept not wanting to say the wrong name. I wish there were a way I could keep up with all these people I have connected with, but I don’t want them in just my phone or in the dating app.
+LOL
+So this thing came up on my IG called TABS. It’s supposed to handle all of that information for you. For example, you’re able to add cards, edit them, and delete them. Apparently, they created it for people like us who want a place to house all these contacts without them being out in the open on your phone! Like once you connect with someone, you can an entire card with their picture, name, location. I heard you can even add notes about them like that one guy you dated who we called the hipster bc he wouldn’t shut up about IPAs LOL. So far it’s easy to use—it’s my little black book on my phone ha ha ha
+It’s so funny too bc if you’re not feeling someone for a bit, you can put them on ice or if you’re digging them, you can click the fire icon and it takes your faves to the top of your list. It’s like my fave new thing right now.
+TABS is so reliable too. It’s created with MongoDB, Express js, React and Node. You have to create a login to view your contacts and it’s super safe with password authentication, so no need to worry about someone seeing your hunnies or exposing your contact list.
+It runs concurrent servers so everything loads fast and beautifully. TBH, this app is pretty sexy. I heard that there was extensive testing with GraphQL too, whatever that means, but someone put in a lot of work.
+
+## Contents
+* [Installation](#installation)
+* [Usage](#usage)
+   * [Screenshots](#screenshots)
+* [Contributing](#contributing)
+* [Credits](#credits)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation
+This application needs to install: 
+```
+Apollo, React, React-Router-DOM
+```
+  
+## Usage
+NPM, GraphQL, MongoDB, Deployed in Heroku 
+  
+### Screenshots
+![Landing Smoke](Landing)
+Tabs Login 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Contributing
+Be kind and develop like no other
+  
+## Credits
+* [Terry Theis, Ryan Pena, Anderson Buzzi, Nancy Rosas, Clifford Crowell, Emily Salinas](https://docs.google.com/presentation/d/1puFKQgFHmYAdv8WmBIgZUqoQklr6cN5uQQHeLGEVVFQ/edit#slide=id.ge51d4c6f81_1_27)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  
+## Questions
+Created by https://github.com/Emilyrh1058/Tabs/tree/main. 
+      If you have any questions about this repo, please contact me at tltheis@prodigy.net.
+  
+## License
+This application is covered under MIT.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
