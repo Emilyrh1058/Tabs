@@ -1,5 +1,5 @@
 # Tabs
-[![Issues](https://img.shields.io/github/issues/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs)](https://github.com/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs/issues) [![Issues](https://img.shields.io/github/contributors/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs)](https://github.com/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs/graphs/contributors) ![MIT License](https://img.shields.io/badge/license-MIT-blue)
+[![Issues](https://img.shields.io/github/forks/Emilyrh1058/Tabs)](https://github.com/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs/issues)  ![Issues](https://img.shields.io/github/issues/Emilyrh1058/Tabs) ![Issues](https://img.shields.io/github/stars/Emilyrh1058/Tabs) ![MIT License](https://img.shields.io/badge/license-MIT-blue)
 
 
 ## Description
@@ -22,9 +22,9 @@ It runs concurrent servers so everything loads fast and beautifully. TBH, this a
    * [Screenshots](#screenshots)
 * [Contributing](#contributing)
 * [Credits](#credits)
-* [Tests](#tests)
 * [Questions](#questions)
 * [License](#license)
+* [Tests](#tests)
 
 
 ## Installation
@@ -58,6 +58,7 @@ This application is covered under MIT.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Tests
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
