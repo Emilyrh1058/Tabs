@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from "react";
 import cardData from "../../utils/cardData";
 import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
+/**
+ *  create a post request to backend to get cards
+ *  once data is received dinamically display cards
+ *
+ */
 
 function Cards(props) {
+  // write post req for cards
+
   console.log(cardData);
   return (
     <Row xs={1} md={3} className="g-4">

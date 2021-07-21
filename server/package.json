@@ -4,9 +4,13 @@
 <<<<<<< HEAD
   "description": "",
   "main": "index.js",
+<<<<<<< HEAD
 =======
   "main": "server.js",
 >>>>>>> login
+=======
+  "proxy": "http://localhost:3000",
+>>>>>>> 8c304280e05b05852e11e3f4599f6dc0dd129fcc
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -23,7 +27,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
-  }
+  },
 =======
     "apollo-server-express": "^2.25.2",
     "bcrypt": "^4.0.1",
@@ -38,5 +42,4 @@
     "nodemon": "^2.0.3"
   },
   "description": ""
->>>>>>> login
 }
