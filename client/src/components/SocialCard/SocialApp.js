@@ -39,12 +39,12 @@ function SocialApp() {
   }
   
   return (
-    <div className="App">
+    <div className="SocialApp">
      
     <ContactForm />
       <h1>My Contacts</h1>
       <input className="search-box" placeholder="Search..." onInput={filterCard}/>
-      <div className="cards-container">
+      <div className="social-cards-container">
 
 
       {users.map((user, index) => (

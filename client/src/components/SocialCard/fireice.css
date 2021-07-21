@@ -25,3 +25,7 @@
     border: 1rem;
     aspect-ratio: .5rem;
 }
+
+.iscontact {
+    font-size: small;
+}
