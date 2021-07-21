@@ -5,6 +5,7 @@ module.exports = gql`
     id: ID!
     firstName: String!
     lastName: String!
+    note: String!
     age: String!
     city: String!
     state: String!
@@ -36,6 +37,7 @@ module.exports = gql`
     createPost(
       firstName: String!
       lastName: String!
+      note: String!
       age: String!
       city: String!
       state: String!
