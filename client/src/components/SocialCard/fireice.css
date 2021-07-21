@@ -1,0 +1,31 @@
+.iced-color {
+    width: 150px;
+    height: 150px;
+    border: 1rem;
+    /* background-color:blue; */
+}
+
+.fire-color {
+    width: 150px;
+    height: 150px;
+    border: 1rem;
+    /* background-color: orangered; */
+}
+
+.fire-images {
+    width: 100px;
+    height: 100px;
+    border: 1rem;
+    aspect-ratio: .5rem;
+}
+
+.ice-images {
+    width: 100px;
+    height: 100px;
+    border: 1rem;
+    aspect-ratio: .5rem;
+}
+
+.iscontact {
+    font-size: small;
+}
