@@ -1,19 +1,28 @@
-import gql from 'graphql-tag';
+import gql from "graphql-tag";
 
-export const QUERY_ME = gql`
+export const QUERY_POSTS = gql`
   {
-    me {
-      _id
+    getPosts {
+      id
+      firstName
+      lastName
+      note
+      age
+      city
+      state
+      phone
+      createdAt
       username
-      email
-      savedBooks {
-        bookId
-        authors
-        image
-        description
-        title
-        link
-      }
+  }
+    }
+  }
+`;
+
+export const QUERY_POST = gql`
+  {
+    getPost {
+      id
+  }
     }
   }
 `;

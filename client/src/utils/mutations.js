@@ -27,12 +27,13 @@ export const ADD_USER = gql`
   }
 `;
 
-// create post
+// CREATE POST
 
 export const createPost = gql`
   mutation createPost(
     $firstName: String!
     $lastName: String!
+    $note: String!
     $age: String!
     $city: String!
     $state: String!
@@ -41,11 +42,13 @@ export const createPost = gql`
     createPost(
       firstName: $firstName
       lastName: $lastName
+      note: $note
       age: $age
       city: $city
       state: $state
       phone: $phone
     ) {
+      # do we need this?
       token
       user {
         _id
