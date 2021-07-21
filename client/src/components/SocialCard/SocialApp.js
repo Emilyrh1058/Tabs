@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './SocialApp.css';
 import SocialCard from './SocialCard';
-import ContactForm from './Contact';
+import ContactForm from '../SocialCard/Contact';
 
 
 

@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../../utils/helpers';
 import './contact.css';
 import '../SocialCard.css';
-import Plus from '../../assets/images/plus32.png';
+import Plus from '../../../assets/images/plus32.png';
 
 function ContactForm() {
   const [formState, setFormState] = useState({ 
