@@ -37,7 +37,7 @@ Apollo, React, React-Router-DOM
 NPM, GraphQL, MongoDB, Deployed in Heroku 
   
 ### Screenshots
-![Landing Smoke](C:\Users\tlthe\Documents\blended-bootcamp\Challenges\Tabs\client\src\images\TabsDemo.mp4)
+![Landing Smoke](C:\Users\tlthe\Documents\blended-bootcamp\Challenges\Tabs\client\src\assets\images\TabsDemo.mp4)
 Tabs Login 
 
 ## Contributing
