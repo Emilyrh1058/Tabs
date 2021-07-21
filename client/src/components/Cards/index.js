@@ -1,18 +1,6 @@
 // import React, { useState, useEffect } from "react";
 import cardData from "../../utils/cardData";
 import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
-<<<<<<< HEAD
-import { Route, Switch } from "react-router-dom";
-import Nav from "../Nav";
-const Cards = () => (
-    <body>
-        <Switch>
-            <Route exact path='/contacts' component={Cards} />
-            <Route exact path='/contacts' component={Nav} />
-        </Switch>
-    </body>
-)
-=======
 /**
  *  create a post request to backend to get cards
  *  once data is received dinamically display cards
@@ -53,6 +41,5 @@ function Cards(props) {
     </Row>
   );
 }
->>>>>>> 8c304280e05b05852e11e3f4599f6dc0dd129fcc
 
 export default Cards;

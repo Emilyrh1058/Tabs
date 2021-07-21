@@ -1,0 +1,29 @@
+.App {
+    padding: 4rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-box {
+    outline: none;
+    width: 100%;
+    border: 1px solid grey;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+:root {
+    --home-color: #2e507a;
+    --sec-color: #5599a5;
+    --back-color: #070505;
+    --body-color: rgb(99, 96, 96);
+    --lines-color: #595e5a;
+    --mid-color: #030505fb;
+    --button-color: #060b0f;
+    --hover-size: #060d16;
+    --home-font: Papyrus;
+}
