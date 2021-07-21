@@ -1,6 +1,6 @@
 import gql from "graphql-tag";
 
-export const QUERY_POSTS = gql`
+export const FETCH_POSTS_QUERY = gql`
   {
     getPosts {
       id
@@ -13,7 +13,6 @@ export const QUERY_POSTS = gql`
       phone
       createdAt
       username
-  }
     }
   }
 `;
@@ -22,7 +21,6 @@ export const QUERY_POST = gql`
   {
     getPost {
       id
-  }
     }
   }
 `;

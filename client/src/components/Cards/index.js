@@ -1,16 +1,19 @@
 import React, { useState, useEffect } from "react";
 import cardData from "../../utils/cardData";
 import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
-/**
- *  create a post request to backend to get cards
- *  once data is received dinamically display cards
- *
- */
+import { useQuery, useMutation } from "@apollo/react-hooks";
+import { FETCH_POSTS_QUERY } from "../../utils/queries";
 
 function Cards(props) {
-  // write post req for cards
+  // write function to fetch cards
 
-  console.log(cardData);
+  const { loading, data } = useQuery(FETCH_POSTS_QUERY);
+
+  if (data) {
+    console.log(data);
+  }
+
+  // console.log(cardData);
   return (
     <Row xs={1} md={3} className="g-4">
       {cardData.map((data, idx) => (
