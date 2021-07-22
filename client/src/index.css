@@ -76,12 +76,12 @@ a {
 	margin-right: -2px;
 }
 
-/* .homepageword {
+.homepageword {
   font-weight: lighter;
-  letter-spacing: 5px;
+  /* letter-spacing: 5px;
   margin-left: 0px;
-	margin-right: 100px;
-} */
+	margin-right: 100px; */
+}
 
 a:hover {
   color: #fafafa !important;
