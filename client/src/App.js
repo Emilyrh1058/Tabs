@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ApolloProvider } from '@apollo/client';
 import ApolloClient from 'apollo-boost';
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import { Container } from "react-bootstrap";
 import "./App.css";
 import Background from "./components/Background";
