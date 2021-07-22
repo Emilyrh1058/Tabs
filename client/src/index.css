@@ -87,7 +87,7 @@ a {
 .login-header {
   color: white;
   font-weight: lighter;
-  /* letter-spacing: 5px; */
+  letter-spacing: 5px;
 }
 
 a:hover {
