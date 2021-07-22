@@ -1,0 +1,569 @@
+[33mcommit cc0861fd8ff7f6a9fc041e4b3778951bf67a7793[m[33m ([m[1;36mHEAD -> [m[1;32mTerDog[m[33m, [m[1;31morigin/TerDog[m[33m)[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 21:26:40 2021 -0500
+
+    design
+
+[33mcommit f5723dabaad588ddda41d983ede05bddd9f5499e[m
+Merge: 1eafa80c 5c7793e4
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 21:21:05 2021 -0500
+
+    merged
+
+[33mcommit 5c7793e4e0a77a46f1bfbe4fde4e781cf655a73a[m[33m ([m[1;31morigin/develop[m[33m)[m
+Merge: 8c304280 61392d35
+Author: Anderson Buzzi <77116414+andybuzzi@users.noreply.github.com>
+Date:   Wed Jul 21 21:14:39 2021 -0500
+
+    Merge pull request #12 from Emilyrh1058/login
+    
+    Login
+
+[33mcommit 61392d356b3f3f48ddf03d27f3d8b5799c62950c[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Wed Jul 21 21:01:52 2021 -0500
+
+    ..
+
+[33mcommit 494e6b92c401756d6ed77f6a3eea66f8e5cdb9aa[m
+Merge: 6f13b0be 88eb2e25
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Wed Jul 21 18:40:35 2021 -0500
+
+    fixing conflicts
+
+[33mcommit 88eb2e256bd3a85f428afcaa0fa6f350d90bb12e[m
+Merge: 56ea26eb 8c304280
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Wed Jul 21 18:36:13 2021 -0500
+
+    Merge branch 'develop' of github.com:Emilyrh1058/Tabs into develop
+
+[33mcommit 1eafa80c207e3d5ca6cf00d8df8343d12657219b[m[33m ([m[1;32mdevelop[m[33m)[m
+Merge: 6b6c6f5b 7e5e1d65
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 14:51:34 2021 -0500
+
+    merge
+
+[33mcommit 7e5e1d658367fa51cfb4c51a6bcb3a1addb3211d[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 12:24:51 2021 -0500
+
+    push to dev
+
+[33mcommit 6b6c6f5bc4a17eed6abdf7f7e7f0d6bcd44312a7[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 12:16:24 2021 -0500
+
+    package-lock
+
+[33mcommit c84a9bcc7c29eccf9f625a3bdf805498e6f42929[m
+Merge: 2a25f04a 8c304280
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 12:08:51 2021 -0500
+
+    Merge branch 'develop' of https://github.com/Emilyrh1058/Tabs into develop
+
+[33mcommit f144f3cbf022dbcea12636f1e0124429dbfe4195[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 11:22:25 2021 -0500
+
+    link
+
+[33mcommit 949a9ad34bb966f56167f170338fb46ca81c89e1[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 11:19:56 2021 -0500
+
+    add mp4
+
+[33mcommit a1c14931aadd23cfe021f12e2ea24751bfd2408a[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 11:04:25 2021 -0500
+
+    badges
+
+[33mcommit 9dcdeaedab7b164bc3d9060c43eeeb924efded4c[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 10:48:53 2021 -0500
+
+    readme
+
+[33mcommit 9ac45fe036d0651aafff3a649e16f72d43f3f32b[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 10:27:02 2021 -0500
+
+    update cards
+
+[33mcommit 9f330e6f04fc9a82e596c1d9724b691683e765d3[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 09:49:32 2021 -0500
+
+    socialcards
+
+[33mcommit 1fcae3517e115129026ea85aeb075b35af267b71[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Wed Jul 21 09:20:31 2021 -0500
+
+    add new cards
+
+[33mcommit 6f13b0be3bd94c0f062bc069cf846f72c76c7797[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Tue Jul 20 22:14:54 2021 -0500
+
+    tested queries, waiting on correct token
+
+[33mcommit 79652c04020dcba07ac9d73a66f12c4516bfd552[m
+Merge: 71144e01 8c304280
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Tue Jul 20 21:07:09 2021 -0500
+
+    resolve merge conflict
+
+[33mcommit 5022675e096dcdcb3573efed1354793ca9e65b8a[m
+Merge: ab520b59 8c304280
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Tue Jul 20 20:46:41 2021 -0500
+
+    Merge branch 'develop' of https://github.com/Emilyrh1058/Tabs into TerDog
+
+[33mcommit 8c304280e05b05852e11e3f4599f6dc0dd129fcc[m
+Merge: 94054b16 d7ff4e2f
+Author: Emily Salinas <77745153+Emilyrh1058@users.noreply.github.com>
+Date:   Tue Jul 20 20:41:37 2021 -0500
+
+    Merge pull request #11 from Emilyrh1058/server
+    
+    Server
+
+[33mcommit ab520b5943b31d5925fceafc06cb378ebe249499[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Tue Jul 20 20:32:09 2021 -0500
+
+    merge dev
+
+[33mcommit 71144e013ba8524c9b399f06099e95f3c308ed2c[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Tue Jul 20 20:30:09 2021 -0500
+
+    working with Andy
+
+[33mcommit d7ff4e2ff3a5e796ddb9ce6b536d81a1a65a8566[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Tue Jul 20 20:23:45 2021 -0500
+
+    queries added to client side
+
+[33mcommit a70ab98ba84dc86fab9d69db15b54cf67651c4b5[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Tue Jul 20 20:22:23 2021 -0500
+
+    queries added to client side
+
+[33mcommit 323de736265e03e977cb18db36bda19b7d1de82c[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Tue Jul 20 20:01:22 2021 -0500
+
+    mutations added to front end
+
+[33mcommit 2a25f04a4aa4b2fe45133ede76d22eb03bb52567[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Tue Jul 20 19:01:44 2021 -0500
+
+    more
+
+[33mcommit 63f9f90851a57d2c59ee787c5f2730e459d0f007[m
+Merge: a2632f77 ea123d95
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Tue Jul 20 18:40:07 2021 -0500
+
+    login changes
+
+[33mcommit a2632f77aeb782c662a3e1a74bc8422ec3c2d74a[m
+Merge: 01f28508 ef6fc8e7
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Tue Jul 20 18:30:00 2021 -0500
+
+    Merge branch 'develop' into TerDog
+
+[33mcommit 01f28508412efe1229b00a0101ed96efea08fa5f[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Tue Jul 20 18:27:11 2021 -0500
+
+    start
+
+[33mcommit ef6fc8e7a8ebce355e638cd8679292bc336c8a37[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Tue Jul 20 18:20:49 2021 -0500
+
+    latest pull
+
+[33mcommit ea123d95e39e53332444a762cd35a8e844940afc[m[33m ([m[1;32mlogin[m[33m)[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Mon Jul 19 23:28:24 2021 -0500
+
+    played with signin, unable to make it connect. asking peers
+
+[33mcommit dcd03db5d3ee6b370bffcf5a27a7bba57f6ce699[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Mon Jul 19 13:03:51 2021 -0500
+
+    try to fix
+
+[33mcommit c19788090046da145a393b05faaadad1361a1c13[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Mon Jul 19 12:25:07 2021 -0500
+
+    updates to files
+
+[33mcommit 2bb97a391b3779c09da08929201a25921d537bdc[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Mon Jul 19 11:25:10 2021 -0500
+
+    app js
+
+[33mcommit 49e6de3eb4178d600fb11ac65304fc7a742853ba[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Mon Jul 19 09:33:18 2021 -0500
+
+    clean up
+
+[33mcommit 7f06db6be61a0e50e1e2269a709cd6ba0a5b3527[m
+Merge: 8bcf22c9 94054b16
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Mon Jul 19 08:48:48 2021 -0500
+
+    changes
+
+[33mcommit 56ea26eb015cfb30be2457fe977ee14e313a6c90[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 22:27:24 2021 -0500
+
+    debugged merge conflict
+
+[33mcommit 8bcf22c901ac7350feac927122e5c4aa46f16fcd[m[33m ([m[1;32mTer/Likes[m[33m)[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 22:06:41 2021 -0500
+
+    changes
+
+[33mcommit af0885202bff2de881d20b4e75637478e31b33e1[m
+Merge: c4718b61 a32f3052
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 21:53:05 2021 -0500
+
+    Merge branch 'login' into develop
+
+[33mcommit c4718b619052514aff9f7bd8fb9eb4758560d1fe[m
+Merge: c9bcb4fd 94054b16
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 21:51:06 2021 -0500
+
+    Merge branch 'develop' of github.com:Emilyrh1058/Tabs into develop
+
+[33mcommit a32f305208a6eac75bcf5eda80ab5b80424640b0[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 21:13:27 2021 -0500
+
+    add eslintcache to gitignore
+
+[33mcommit e7358e39400cbfad4d9a0e33ebe0f055c3e5a705[m
+Merge: bd47cf0e 94054b16
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 20:56:16 2021 -0500
+
+    Merge branch 'develop' of github.com:Emilyrh1058/Tabs into develop
+
+[33mcommit 94054b16f6a445b61183820a7850d69e7958cba0[m
+Merge: 3100c985 cd6f4232
+Author: Nancy <77172183+nancyrosas0@users.noreply.github.com>
+Date:   Sun Jul 18 20:54:53 2021 -0500
+
+    Merge pull request #9 from Emilyrh1058/server
+    
+    Server
+
+[33mcommit cd6f4232273d060ad9c48ab448e0c39f85d3e431[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 20:51:39 2021 -0500
+
+    clean up node
+
+[33mcommit bd47cf0e10ffdc8e971d20f03f5fef4ad478d13b[m
+Merge: f3116a4a cdc53503
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 20:43:31 2021 -0500
+
+    Merge branch 'server' into develop
+
+[33mcommit f3116a4a3e417ce827ed7d321b98b1539a3d91d6[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 20:41:44 2021 -0500
+
+    merge
+
+[33mcommit cdc53503f06582964fb26c3a91701d940ce0cb59[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 20:37:50 2021 -0500
+
+    test
+
+[33mcommit c5ed5f117b4699e63ddc66bd93fcc615a32cc3cc[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 18:51:06 2021 -0500
+
+    651
+
+[33mcommit c9bcb4fd544f879f539ce1289f557da2e5af5106[m
+Merge: 3100c985 98d3a6ef
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 15:17:45 2021 -0500
+
+    Merge branch 'login' into develop
+
+[33mcommit f3bf627ad47b754c1dec4f5525d6b3a2581cbe53[m
+Merge: 3100c985 ffac0aa2
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 15:08:57 2021 -0500
+
+    merge brach:
+
+[33mcommit ffac0aa24d6d5b93d067ae70dd8f02c2ac3c5987[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 15:03:20 2021 -0500
+
+    app.js route fixed
+
+[33mcommit 3ca4138f6b459326547d7630851e3f1426737ce6[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 14:34:14 2021 -0500
+
+    baseline3
+
+[33mcommit 662aad85a6d5bc885ea2db00192382a658077237[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 14:14:09 2021 -0500
+
+    restart
+
+[33mcommit 98d3a6ef26ec66aeff2a8c102eb55f5a78706c84[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 14:06:16 2021 -0500
+
+    log in and sign up working
+
+[33mcommit 0899efc1f31a3515a4dfb3ad5e1e55af55c6652b[m
+Merge: cf93dbc2 3100c985
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 14:03:54 2021 -0500
+
+    Merge branch 'develop' of https://github.com/Emilyrh1058/Tabs into TerDog
+
+[33mcommit 0eb473511139e02251e686cf59df54aa0fae7c24[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 13:57:43 2021 -0500
+
+    cards.js deletes and transferred to cards component/index.js
+
+[33mcommit c93d0ffff08fb370e3cf2e4226d4d27ffd7e8ade[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 13:50:48 2021 -0500
+
+    routes fixed and added to app.js
+
+[33mcommit cf93dbc2d76db6e54f6bc1f5598dea97636b7ace[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 13:41:21 2021 -0500
+
+    node modules
+
+[33mcommit 2bb212a05cc47f4ee760fb63f53f3d099ecedc87[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 13:30:35 2021 -0500
+
+    restart
+
+[33mcommit 3100c985e4b8e9ab7734500606d70f1725cb5cfb[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 13:11:58 2021 -0500
+
+    remove node mods
+
+[33mcommit 2fb310300c483d99750b2d5d9c7b336586ebed3c[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 13:10:40 2021 -0500
+
+    remove node mods
+
+[33mcommit 8efaab5874c36ab588c86e5fdcdb9e7ac4ddd747[m
+Merge: 6f104b5f f51e8fbd
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 12:33:36 2021 -0500
+
+    mutations
+
+[33mcommit f51e8fbdbd202797574bf7c589368893e353a9f5[m
+Merge: d0baa908 3cb34d76
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 12:32:49 2021 -0500
+
+    Merge branch 'develop' of https://github.com/Emilyrh1058/Tabs into develop
+
+[33mcommit 6f104b5ff71433495df46be530f76c917a7aee84[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 12:32:15 2021 -0500
+
+    latest
+
+[33mcommit 3cb34d76ee3135c33346faa40afef403504696e1[m
+Merge: 2e0aab80 62540bf5
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 12:16:47 2021 -0500
+
+    Merge branch 'server' into develop
+
+[33mcommit 569d04d657c793110a40d03bc6af78b93f2cee4a[m
+Merge: 9f956fe8 d0baa908
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 12:08:02 2021 -0500
+
+    merge
+
+[33mcommit d0baa908c7d8f7a53dd3cec4b2c99d170ec761d2[m
+Merge: 48132cb2 2e0aab80
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 12:05:23 2021 -0500
+
+    Merge branch 'develop' of https://github.com/Emilyrh1058/Tabs into develop
+
+[33mcommit 9f956fe82cfca3ce8e8d63f9740a271e080ef3c1[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 12:04:49 2021 -0500
+
+    icons
+
+[33mcommit 2e0aab8043c5bc63e8a4d4b5797b730fc43ac719[m
+Author: cliffybar <crowellclifford@utexas.edu>
+Date:   Sun Jul 18 12:03:24 2021 -0500
+
+    deleted unnecessary folders
+
+[33mcommit 62540bf5b6d5fe79f622f57830bd5c6f37704acd[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 11:54:35 2021 -0500
+
+    graphql refactored
+
+[33mcommit 32903a2b9f1866d8c8bfce4c6d12e6fce0d86b3c[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 11:36:31 2021 -0500
+
+    added post fields
+
+[33mcommit caa63c4b85650731230ca6ce41fe8c121b5d26f9[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sun Jul 18 10:49:01 2021 -0500
+
+    post and delete added to graphql
+
+[33mcommit d864be4e371757d284b2a10cf318fbce04e7fbb9[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 10:18:18 2021 -0500
+
+    merge
+
+[33mcommit 71a35d03386b9459a725b162f7052a8d29949ff2[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sun Jul 18 10:13:18 2021 -0500
+
+    Ter merge
+
+[33mcommit 7f50e577491bb8b073bfec5e43eb973c76a9ba8b[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sun Jul 18 01:29:37 2021 -0500
+
+    commit
+
+[33mcommit 48132cb20f1ecb7d75df387400f12fe89dbd60a0[m
+Merge: 0fc1fcd6 3233ef32
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sat Jul 17 23:28:24 2021 -0500
+
+    latest dev
+
+[33mcommit 8b943eac77c7378f65255f7c370ce43be3968c8b[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sat Jul 17 23:26:35 2021 -0500
+
+    merge conflict
+
+[33mcommit e61018f330a60e0ca2d4e19fb2e02a2500efe760[m
+Merge: faccadb5 3233ef32
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sat Jul 17 23:22:26 2021 -0500
+
+    merge again
+
+[33mcommit faccadb591d77d79a6536db2369c6de6bc5088b2[m
+Merge: df533c1e 0fc1fcd6
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sat Jul 17 23:21:46 2021 -0500
+
+    merge
+
+[33mcommit 0fc1fcd6c3e696bd3aaf8e4f8cc080389d593926[m
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sat Jul 17 23:18:59 2021 -0500
+
+    dev
+
+[33mcommit 3233ef326f19ea9c5917fcd23238789e2f0edcfa[m
+Author: Nancy <nancyrosas0@gmail.com>
+Date:   Sat Jul 17 23:09:14 2021 -0500
+
+    commiting to change to branch nancy
+
+[33mcommit 166d18b8aa8c2ab10fffdcd9ef4709cf5a06dc51[m
+Merge: fc4fc372 e229f49e
+Author: Nancy <nancyrosas0@gmail.com>
+Date:   Sat Jul 17 22:33:01 2021 -0500
+
+    adding files from origin nancy
+
+[33mcommit e229f49e99cf7f7b1a76347d850be683a95f1287[m
+Author: Nancy <nancyrosas0@gmail.com>
+Date:   Sat Jul 17 22:20:21 2021 -0500
+
+    changed index on nav
+
+[33mcommit 0addbca7af608f0c216bcb50b195933b3582bba3[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sat Jul 17 21:55:34 2021 -0500
+
+    removed friends and some reactions
+
+[33mcommit fc4fc3727dc8a27ccb6359b2de2644824b5fed01[m
+Author: Nancy <nancyrosas0@gmail.com>
+Date:   Sat Jul 17 21:52:41 2021 -0500
+
+    push error changes
+
+[33mcommit 8e665cbccce855ad0ceddb644340fdf64fd377b7[m
+Author: andersonbuzzidr <77116414+andersonbuzzidr@users.noreply.github.com>
+Date:   Sat Jul 17 21:36:25 2021 -0500
+
+    back end files added
+
+[33mcommit 768332a815fa1362ce1cd3157eb0de8e74ccb59c[m
+Author: Emily Salinas <emilyrh1058@gmail.com>
+Date:   Sat Jul 17 21:32:36 2021 -0500
+
+    removed reactions
+
+[33mcommit df533c1e0411a48c267f8d9f56dc575fd3ae2241[m
+Merge: 769f7a30 2b5fc5a3
+Author: Terry Theis <tltheis@prodigy.net>
+Date:   Sat Jul 17 21:29:01 2021 -0500
+
+    Merge branch 'develop' into TerDog
