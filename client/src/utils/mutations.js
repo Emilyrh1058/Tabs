@@ -28,7 +28,6 @@ export const ADD_USER = gql`
 `;
 
 // CREATE POST
-
 export const createPost = gql`
   mutation createPost(
     $firstName: String!
