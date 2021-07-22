@@ -13,7 +13,6 @@ export const QUERY_POSTS = gql`
       phone
       createdAt
       username
-  }
     }
   }
 `;
@@ -22,7 +21,6 @@ export const QUERY_POST = gql`
   {
     getPost {
       id
-  }
     }
   }
 `;
