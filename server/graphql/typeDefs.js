@@ -15,9 +15,9 @@ module.exports = gql`
   }
   type User {
     id: ID!
-    email: String!
-    token: String!
-    username: String!
+    email: String
+    token: String
+    username: String
     createdAt: String!
   }
   input RegisterInput {
@@ -30,9 +30,12 @@ module.exports = gql`
     getPosts: [Post]
     # get a single post
     getPost(postId: ID!): Post
+    getUsers: [User]
   }
   type Mutation {
     register(registerInput: RegisterInput): User!
+
+
     login(username: String!, password: String!): User!
     createPost(
       firstName: String!

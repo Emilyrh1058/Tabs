@@ -5,13 +5,12 @@ import Auth from '../utils/auth';
 
 
 const Signup = () => {
-  const [formState, setFormState] = useState({ username: '', email: '', password: '' });
+  const [formState, setFormState] = useState({ username: '', email: '', password: '', confirmPassword: '' });
   const [addUser, { error }] = useMutation(ADD_USER);
   
   // update state based on form input changes
   const handleChange = (event) => {
     const { name, value } = event.target;
-
     setFormState({
       ...formState,
       [name]: value,
@@ -23,11 +22,12 @@ const Signup = () => {
     event.preventDefault();
   console.log("about to send data")
     try {
+      console.log({...formState})
       const { data } = await addUser({
         variables: { ...formState }
       });
     console.log("add user", data)
-      Auth.login(data.addUser.token);
+      Auth.login(data.register.token);
     } catch (e) {
       console.error(e, "error in signup");
     }
@@ -65,6 +65,15 @@ const Signup = () => {
                 type='password'
                 id='password'
                 value={formState.password}
+                onChange={handleChange}
+              />
+              <input
+                className='form-input'
+                placeholder='******'
+                name='confirmPassword'
+                type='password'
+                id='password'
+                value={formState.confirmPassword}
                 onChange={handleChange}
               />
               <button className='btn d-block w-100' type='submit'>

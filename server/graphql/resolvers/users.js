@@ -22,6 +22,18 @@ function generateToken(user) {
 }
 
 module.exports = {
+  Query: {
+    async getUsers() {
+      try {
+        console.log("get users");
+        const users = await User.find().sort({ createdAt: -1 });
+        console.log(users);
+        return users;
+      } catch (err) {
+        throw new Error(err);
+      }
+    },
+  },
   Mutation: {
     async login(_, { username, password }) {
       const { errors, valid } = validateLoginInput(username, password);
@@ -76,22 +88,30 @@ module.exports = {
       }
       // hash password and create an auth token
       password = await bcrypt.hash(password, 12);
-
+      const date = new Date().toISOString();
+      const token = generateToken({
+        email,
+        username,
+        password,
+        createdAt: date
+      });
+        console.log(date)
       const newUser = new User({
         email,
         username,
         password,
-        createdAt: new Date().toISOString(),
+        createdAt: date,
+        token
       });
 
       const res = await newUser.save();
-
-      const token = generateToken(res);
-
+        console.log(res)
       return {
-        ...res._doc,
+        // ...res._doc,
         id: res._id,
         token,
+        username: res.username,
+        email: res.email
       };
     },
   },

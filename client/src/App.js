@@ -32,7 +32,7 @@ const client = new ApolloClient({
       },
     });
   },
-  uri: "/graphql",
+  uri: "http://localhost:5000/graphql",
 });
 
 function App() {
@@ -54,7 +54,7 @@ function App() {
             </div>
           </div>
         </Router>
-      </ApolloProvider>
+ 
       <main>
         <Background></Background>
         {/* <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
@@ -64,6 +64,7 @@ function App() {
           Log In
         </a> */}
       </main>
+         </ApolloProvider>
     </React.Fragment>
   );
 }
