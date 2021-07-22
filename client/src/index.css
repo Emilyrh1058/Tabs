@@ -28,7 +28,7 @@ body {
   font-weight: lighter;
   letter-spacing: .1em;
   /* background: var(--background); */
-  color: rgb(14, 13, 13);
+  color: white;
   font-family: 'Raleway', sans-serif;
   background-size: auto;
   background-image: url(./assets/backgroundVideo/smoke.mp4);
