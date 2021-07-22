@@ -64,7 +64,7 @@ a {
 	margin-right: -2px;
 }
 
-/* HOMEPAGE STYLINGS */
+/* HOMEPAGE STYLINGS START */
 .tabsheader {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
@@ -88,6 +88,27 @@ a {
   color: white;
   font-weight: lighter;
   letter-spacing: 5px;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.homepage-card {
+  margin: 2rem 2rem 2rem 0;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 12);
+  border-radius: 3%;
+  transition: transform .3s ease;
+  cursor: pointer;
+  transform-style: preserve-3d;}
+/* HOMEPAGE STYLINGS START */
+
+.homepage-card:hover {
+  transform: scale(1.1);
 }
 
 a:hover {
