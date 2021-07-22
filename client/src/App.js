@@ -9,13 +9,13 @@ import Cards from "./components/Cards/";
 import Contacts from "./pages/Contacts";
 import Nav from "./components/Nav";
 
-function App() {
-  return (
-    <Router>
-      <Route exact path="/" component={Background} />
-      <Route exact path="/contacts" component={Contacts} />
-    </Router>
-  );
-}
+// function App() {
+//   return (
+//     <Router>
+//       <Route exact path="/" component={Background} />
+//       <Route exact path="/contacts" component={Contacts} />
+//     </Router>
+//   );
+// }
 
 export default App;
