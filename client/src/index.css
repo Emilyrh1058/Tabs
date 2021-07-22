@@ -84,10 +84,22 @@ a {
 	margin-right: 100px;
 }
 
-.login-header {
+.login-word {
   color: white;
   font-weight: lighter;
   letter-spacing: 5px;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.login-fail {
+  color: red;
+  font-size: 15px;
+  font-weight: lighter;
   display: block;
   margin-block-start: 1.33em;
   margin-block-end: 1.33em;
