@@ -113,6 +113,7 @@ a {
   padding: 1.5rem;
   width: 250px;
   box-shadow: 0 0 28px 4px rgba(0, 0, 0, 12);
+  background-color: rgba(50, 50, 50, .5);
   border-radius: 3%;
   transition: transform .3s ease;
   cursor: pointer;

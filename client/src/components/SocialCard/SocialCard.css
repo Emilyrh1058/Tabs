@@ -7,6 +7,7 @@
   transition: transform 0.3s ease;
   cursor: pointer;
   transform-style: preserve-3d;
+  background-color: rgba(50, 50, 50, .5);
 }
 
 .card:hover {
