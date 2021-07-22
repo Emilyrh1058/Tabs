@@ -11,7 +11,7 @@ import Signup from "./pages/Signup";
 import LoginPage from "./components/Login";
 import Cards from "./components/Cards/";
 import Contacts from "./pages/Contacts";
-import Nav from "./components/Nav";
+// import Nav from "./components/Nav";
 
 // function App() {
 //   return (
@@ -48,22 +48,13 @@ function App() {
                 <Route exact path="/signup" component={Signup} />
                 {/* <Route exact path="/profile/:username?" component={Profile} /> */}
                 <Route exact path="/" component={Background} />
-                <Route exact path="/contacts" component={Cards} />
+                <Route exact path="/contacts" component={Contacts} />
                 {/* <Route component={NoMatch} /> */}
               </Switch>
             </div>
           </div>
         </Router>
       </ApolloProvider>
-      <main>
-        <Background></Background>
-        {/* <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
-          Register
-        </a>
-        <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
-          Log In
-        </a> */}
-      </main>
     </React.Fragment>
   );
 }
