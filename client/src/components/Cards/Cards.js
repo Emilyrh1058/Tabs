@@ -1,7 +1,8 @@
 // import React, { useState, useEffect } from "react";
 import cardData from "../../utils/cardData";
 import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
-import SocialApp from "../SocialCard/SocialApp";
+
+
 
 function Cards(props) {
   console.log(cardData);
