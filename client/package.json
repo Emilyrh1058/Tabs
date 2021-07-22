@@ -1,5 +1,6 @@
 {
   "name": "tabs",
+  "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,7 +8,8 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "bootstrap": "^5.0.2",
+    "apollo-boost": "^0.4.9",
+    "apollo-client": "^2.6.10",
     "express": "^4.17.1",
     "graphql": "^15.5.1",
     "jwt-decode": "^3.1.2",
@@ -19,7 +21,7 @@
     "react-dom": "^17.0.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
