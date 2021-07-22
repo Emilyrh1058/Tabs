@@ -1,6 +1,7 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const { UserInputError } = require("apollo-server");
+const { signToken } = require('../../utils/auth');
 
 const {
   validateRegisterInput,
@@ -63,56 +64,62 @@ module.exports = {
         token,
       };
     },
-    async register(
-      _,
-      { registerInput: { username, email, password, confirmPassword } }
-    ) {
-      // Validate user data
-      const { valid, errors } = validateRegisterInput(
-        username,
-        email,
-        password,
-        confirmPassword
-      );
-      if (!valid) {
-        throw new UserInputError("Errors", { errors });
-      }
-      // TODO: Make sure user doesnt already exist
-      const user = await User.findOne({ username });
-      if (user) {
-        throw new UserInputError("Username is taken", {
-          errors: {
-            username: "This username is taken",
-          },
-        });
-      }
-      // hash password and create an auth token
-      password = await bcrypt.hash(password, 12);
-      const date = new Date().toISOString();
-      const token = generateToken({
-        email,
-        username,
-        password,
-        createdAt: date
-      });
-        console.log(date)
-      const newUser = new User({
-        email,
-        username,
-        password,
-        createdAt: date,
-        token
-      });
-
-      const res = await newUser.save();
-        console.log(res)
-      return {
-        // ...res._doc,
-        id: res._id,
-        token,
-        username: res.username,
-        email: res.email
-      };
+        addUser: async (parent, args) => {
+      const user = await User.create(args);
+      const token = signToken(user);
+      console.log("token", token)
+      return { token, user };
     },
+    // async register(
+    //   _,
+    //   { registerInput: { username, email, password, confirmPassword } }
+    // ) {
+    //   // Validate user data
+    //   const { valid, errors } = validateRegisterInput(
+    //     username,
+    //     email,
+    //     password,
+    //     confirmPassword
+    //   );
+    //   if (!valid) {
+    //     throw new UserInputError("Errors", { errors });
+    //   }
+    //   // TODO: Make sure user doesnt already exist
+    //   const user = await User.findOne({ username });
+    //   if (user) {
+    //     throw new UserInputError("Username is taken", {
+    //       errors: {
+    //         username: "This username is taken",
+    //       },
+    //     });
+    //   }
+    //   // hash password and create an auth token
+    //   password = await bcrypt.hash(password, 12);
+    //   const date = new Date().toISOString();
+    //   const token = generateToken({
+    //     email,
+    //     username,
+    //     password,
+    //     createdAt: date
+    //   });
+    //     console.log(date)
+    //   const newUser = new User({
+    //     email,
+    //     username,
+    //     password,
+    //     createdAt: date,
+    //     token
+    //   });
+
+    //   const res = await newUser.save();
+    //     console.log(res)
+    //   return {
+    //     // ...res._doc,
+    //     id: res._id,
+    //     token,
+    //     username: res.username,
+    //     email: res.email
+    //   };
+    // },
   },
 };

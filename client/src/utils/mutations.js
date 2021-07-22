@@ -14,23 +14,33 @@ export const LOGIN_USER = gql`
   }
 `;
 
-// Confirm if its being used:
-
 export const ADD_USER = gql`
-mutation{
-  register(registerInput:{
-    username: "1221"
-    password: "12345"
-    confirmPassword: "12345"
-    email: "1221@email.com"
-  }){
-    id
-    email
-    token
-    username
+  mutation addUser($username: String!, $email: String!, $password: String!) {
+    addUser(username: $username, email: $email, password: $password) {
+      token
+      user {
+        _id
+        username
+      }
+    }
   }
-}
 `;
+
+// export const ADD_USER = gql`
+// mutation{
+//   register(registerInput:{
+//     username: "1221"
+//     password: "12345"
+//     confirmPassword: "12345"
+//     email: "1221@email.com"
+//   }){
+//     id
+//     email
+//     token
+//     username
+//   }
+// }
+// `;
 // mutation{
 //   register(registerInput:{
 //     username: "4"
