@@ -1,5 +1,6 @@
 {
   "name": "tabs",
+  "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +9,11 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "apollo-boost": "^0.4.9",
+<<<<<<< HEAD
     "bootstrap": "^5.0.2",
+=======
+    "apollo-client": "^2.6.10",
+>>>>>>> 5c7793e4e0a77a46f1bfbe4fde4e781cf655a73a
     "express": "^4.17.1",
     "graphql": "^15.5.1",
     "jwt-decode": "^3.1.2",

@@ -2,10 +2,15 @@
   "name": "server",
   "version": "1.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   "description": "",
 >>>>>>> TerDog
   "main": "index.js",
+=======
+  "description": "",
+  "main": "server.js",
+>>>>>>> 5c7793e4e0a77a46f1bfbe4fde4e781cf655a73a
   "proxy": "http://localhost:3000",
   "scripts": {
     "start": "nodemon index.js"
@@ -14,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "apollo-server": "^3.0.1",
     "bcryptjs": "^2.4.3",
     "graphql": "^15.5.1",
@@ -22,5 +28,24 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
+=======
+    "apollo-server": "^3.0.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "apollo-server-express": "^2.25.2",
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "graphql": "^15.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.9",
+    "set-blocking": "^2.0.0"
+>>>>>>> 5c7793e4e0a77a46f1bfbe4fde4e781cf655a73a
   }
 }

@@ -1,6 +1,7 @@
 // import React, { useState, useEffect } from "react";
 import cardData from "../../utils/cardData";
 import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
+import SocialApp from "../SocialCard/SocialApp";
 
 function Cards(props) {
   console.log(cardData);
@@ -9,7 +10,7 @@ function Cards(props) {
       {cardData.map((data, idx) => (
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+            <Card.Img variant="top"><img src={userData.picture.medium} />
             <Card.Body>
               <Card.Title>
                 {data.firstName} {data.lastName}
