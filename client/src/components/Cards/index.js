@@ -1,6 +1,8 @@
 // import React, { useState, useEffect } from "react";
 import cardData from "../../utils/cardData";
 import { Card, ListGroup, ListGroupItem, Row, Col } from "react-bootstrap";
+import "../../../src/index.css";
+
 /**
  *  create a post request to backend to get cards
  *  once data is received dinamically display cards
@@ -32,8 +34,8 @@ function Cards(props) {
               <ListGroupItem> {data.phoneNumber} </ListGroupItem>
             </ListGroup>
             <Card.Body>
-              <Card.Link href="#">Card Link</Card.Link>
-              <Card.Link href="#">Another Link</Card.Link>
+              <Card.Link className="contacts-word" href="#">Card Link</Card.Link>
+              <Card.Link className="contacts-word" href="#">Another Link</Card.Link>
             </Card.Body>
           </Card>
         </Col>
