@@ -49,7 +49,7 @@ function ContactForm() {
 
   return (
     <div className="card-contact">
-      <h1 data-testid="h1tag">Create Contact</h1>
+      <h1 className="contact-header" data-testid="h1tag">Create Contact</h1>
       <form id="contact-form" className="contact-card" onSubmit={handleSubmit}>
         <div>
           <label className="contact" htmlFor="firstname">FirstName:</label>
