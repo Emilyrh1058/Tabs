@@ -29,11 +29,13 @@
 .card__image img {
   border-radius: 40%;
 }
+
 .card-contact {
   margin: 2rem 2rem 2rem 0;
   padding: 1.5rem;
   width: 550px;
   box-shadow: 0 0 28px 4px rgba(0, 0, 0, 12);
+  background-color: rgba(50, 50, 50, .5);
   border-radius: 3%;
   transition: transform 0.3s ease;
   cursor: pointer;
