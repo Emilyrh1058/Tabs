@@ -39,7 +39,7 @@ db.once('open', async () => {
       { _id: userId },
       { $push: { notes: createdNote._id } }
     );
-    createdNotess.push(createdNotes);
+    createdNotes.push(createdNotes);
   }
   console.log('all done!');
   process.exit(0);

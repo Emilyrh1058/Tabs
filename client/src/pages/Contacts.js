@@ -8,22 +8,23 @@ import { QUERY_POSTS } from "../utils/queries";
 function Contacts() {
   const {
     loading,
-    data: { getPosts: posts },
+    data,
   } = useQuery(QUERY_POSTS);
-
+  console.log('data', data)
+  const cardData = data?.getPosts || {};
   return (
-    <Card xs={1} md={3} className="g-4">
+    //Card vs Row
+    <Row xs={1} md={3} className="g-4">
       {loading ? (
         <h1>Loading posts..</h1>
       ) : (
-        posts &&
-        posts.map((post) => (
+        cardData.map((post) => (
           <Col key={post.id} style={{ marginBottom: 20 }}>
             <PostCard post={post} />
           </Col>
         ))
       )}
-    </Card>
+    </Row>
   );
 }
 
