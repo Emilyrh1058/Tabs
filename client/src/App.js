@@ -4,7 +4,7 @@ import { ApolloProvider } from '@apollo/client';
 import ApolloClient from 'apollo-boost';
 //import "/dist/css/bootstrap.min.css";
 // import { Container } from "react-bootstrap";
-import "./App.css";
+import "./index.css";
 import Background from "./components/Background";
 import LoginForm from "./pages/LoginForm";
 import Signup from './pages/Signup';

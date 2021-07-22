@@ -12,10 +12,10 @@ const Login = () => {
     <header className="bg-secondary mb-4 py-2 flex-row align-center">
       <div className="container flex-row justify-space-between-lg justify-center align-center">
         <Link to="/">
-          <h1>T A B S</h1>
+          <h1 className="tabsheader">TABS</h1>
         </Link>
 
-        <nav className="text-center">
+        <nav>
           {Auth.loggedIn() ? (
             <>
               <Link to="/profile">Me</Link>
@@ -25,8 +25,8 @@ const Login = () => {
             </>
           ) : (
             <>
-              <Link to="/login">LOGIN</Link>
-              <Link to="/signup">CREATE</Link>
+              <Link className="homepageword" to="/login">LOGIN</Link>
+              <Link className="homepageword" to="/signup">CREATE</Link>
             </>
           )}
         </nav>
