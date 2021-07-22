@@ -79,8 +79,8 @@ a {
 .homepageword {
   font-weight: lighter;
   letter-spacing: 5px;
-  /* margin-left: 0px;
-	margin-right: 100px; */
+  margin-left: 0px;
+	/* margin-right: 100px; */
 }
 
 a:hover {
