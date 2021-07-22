@@ -11,7 +11,7 @@ const SocialCard = ({ userData }) => {
             <div className="card__body">
             <div className="card__image"><img src={userData.picture.medium} /></div>
                 <Location location={userData.location}></Location>
-                <p> age: {userData.dob.age}</p>
+                <p> Age: {userData.dob.age}</p>
                 <PhoneNumber type="phone" number={userData.cell}></PhoneNumber>
                 <div><FireIce /></div>
             </div>    

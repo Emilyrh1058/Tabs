@@ -4,10 +4,10 @@ const Location = ({ location }) => {
     
     return (
         <div className="location">
-            <p>notes: Something about Contact</p>
+            <p>Notes: Something about Contact</p>
             <br />
-            <p>city: {location.city}</p>
-            <p>state: {location.state}</p>
+            <p>City: {location.city}</p>
+            <p>State: {location.state}</p>
         </div>
     )
 }

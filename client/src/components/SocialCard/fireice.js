@@ -14,7 +14,7 @@ const FireIce = () => {
             <Toggle onChange={(event) => setToggled(event.target.checked)} />
             <span>
                 <div className="iscontact">
-                <p> The Contact is { toggled ? <img className="fire-images" src={Fire} alt="fire" /> : <img className="ice-images"src={Ice} alt="ice" /> }.</p>            
+                <p> The Contact is { toggled ? <img className="fire-images" src={Fire} alt="fire" /> : <img className="ice-images"src={Ice} alt="ice" /> }</p>            
                 </div>
             </span>
         </div>
