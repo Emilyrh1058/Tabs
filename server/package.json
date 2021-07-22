@@ -4,8 +4,6 @@
   "description": "",
   "main": "server.js",
   "proxy": "http://localhost:3000",
-  "main": "server.js",
-  "proxy": "http://localhost:3000",
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -30,8 +28,5 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.9",
     "set-blocking": "^2.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.3"
   }
 }

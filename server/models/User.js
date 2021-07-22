@@ -1,15 +1,5 @@
 const { model, Schema } = require("mongoose");
 
-<<<<<<< HEAD
-const userSchema = new Schema({
-  username: String,
-  password: String,
-  email: String,
-  createdAt: String,
-});
-
-module.exports = model("User", userSchema);
-=======
 const userSchema = new Schema(
   {
     username: {
@@ -61,4 +51,3 @@ userSchema.methods.isCorrectPassword = async function(password) {
 const User = model('User', userSchema);
 
 module.exports = User;
->>>>>>> login
