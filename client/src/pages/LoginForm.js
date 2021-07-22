@@ -42,8 +42,8 @@ const Login = (props) => {
   return (
     <main className='flex-row justify-center mb-4'>
       <div className='col-12 col-md-6'>
-        <div className='card'>
-          <h4 className='card-header'>Login</h4>
+        <div className='homepage-card'>
+          <h4 className='login-word'>Log In</h4>
           <div className='card-body'>
             <form onSubmit={handleFormSubmit}>
               <input
@@ -68,7 +68,7 @@ const Login = (props) => {
                 Submit
               </button>
             </form>
-            {error && <div>Login failed</div>}
+            {error && <div className='homepage-fail'>Login failed</div>}
           </div>
         </div>
       </div>

@@ -14,13 +14,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@apollo/client": "^3.3.21",
-    "@apollo/react-hooks": "^4.0.0",
-    "apollo-boost": "^0.4.9",
-    "apollo-client": "^2.6.10",
+    "bootstrap": "^5.0.2",
     "if-env": "^1.0.4",
-    "jwt-decode": "^3.1.2",
-    "nodemon": "^2.0.12",
+    "react-bootstrap": "^1.6.1",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {

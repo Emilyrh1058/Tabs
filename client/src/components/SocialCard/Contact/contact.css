@@ -1,0 +1,59 @@
+form {
+    width: 10%;
+  }
+  
+  .contact {
+    display: flex;
+    border-color: black;
+    margin: 1rem 0 0 0;
+    padding: .5rem 0 0 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+  }
+  
+  button {    
+    text-decoration: none;
+    padding: 0.25rem .25rem;    
+    margin: .35rem;    
+    cursor: pointer;
+  }
+  
+  textarea {
+    font-size: 1.5rem;
+    width: 500px;
+    height: 120px;
+    border-radius: 2px;
+    border: 2px solid var(--lines-color);
+    padding: 5px;
+  }
+  
+  .input {
+    font-size: 1.5rem;
+    width: 500px;
+    padding: 0.55rem;
+    border: 5px solid var(--lines-color);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 12);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+ h1 {
+     font-size: 2rem;
+ }
+  
+  button:hover {
+    text-shadow: 0 0 5px var(--hover-size);
+    color: var(--hover-size);
+    transform: scale(1.1);
+  }
+  
+.contact-card {
+    border: .2rem;
+    border-color: black;
+}
+  
+  .error-text {
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
