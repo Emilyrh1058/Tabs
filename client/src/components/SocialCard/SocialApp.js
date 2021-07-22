@@ -40,7 +40,7 @@ function SocialApp() {
     <div className="SocialApp">
 
       <ContactForm />
-      <h1>My Contacts</h1>
+      <h1 className="contact-header">My Contacts</h1>
       <input className="search-box" placeholder="Search..." onInput={filterCard} />
       <div className="social-cards-container">
 
