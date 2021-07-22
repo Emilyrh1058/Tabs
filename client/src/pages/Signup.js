@@ -17,19 +17,19 @@ const Signup = () => {
       [name]: value,
     });
   };
-
+  
   // submit form
   const handleFormSubmit = async event => {
     event.preventDefault();
-  
+  console.log("about to send data")
     try {
       const { data } = await addUser({
         variables: { ...formState }
       });
-    
+    console.log("add user", data)
       Auth.login(data.addUser.token);
     } catch (e) {
-      console.error(e);
+      console.error(e, "error in signup");
     }
   };
 
@@ -71,7 +71,7 @@ const Signup = () => {
                 Submit
               </button>
             </form>
-            {error && <div>Sign up failed</div>}
+            {error && <div>Signup failed</div>}
           </div>
         </div>
       </div>
