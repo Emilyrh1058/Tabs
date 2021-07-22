@@ -68,7 +68,7 @@ const Login = (props) => {
                 Submit
               </button>
             </form>
-            {error && <div className='login-fail'>Login failed</div>}
+            {error && <div className='homepage-fail'>Login failed</div>}
           </div>
         </div>
       </div>

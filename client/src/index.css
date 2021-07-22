@@ -96,7 +96,7 @@ a {
   text-align: center;
 }
 
-.login-fail {
+.homepage-fail {
   color: red;
   font-size: 15px;
   font-weight: lighter;
@@ -116,8 +116,9 @@ a {
   border-radius: 3%;
   transition: transform .3s ease;
   cursor: pointer;
-  transform-style: preserve-3d;}
-/* HOMEPAGE STYLINGS START */
+  transform-style: preserve-3d;
+}
+/* HOMEPAGE STYLINGS END */
 
 .homepage-card:hover {
   transform: scale(1.1);

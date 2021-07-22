@@ -36,8 +36,8 @@ const Signup = () => {
   return (
     <main className='flex-row justify-center mb-4'>
       <div className='col-12 col-md-6'>
-        <div className='card'>
-          <h4 className='card-header'>Sign Up</h4>
+        <div className='homepage-card'>
+          <h4 className='login-word'>Sign Up</h4>
           <div className='card-body'>
             <form onSubmit={handleFormSubmit}>
               <input
@@ -71,7 +71,7 @@ const Signup = () => {
                 Submit
               </button>
             </form>
-            {error && <div>Signup failed</div>}
+            {error && <div className='homepage-fail'>Signup failed</div>}
           </div>
         </div>
       </div>
