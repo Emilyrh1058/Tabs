@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Rate Your Bootcamp Website 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+MERN Full-Stack Project
 
-### `npm start`
+TABS is an MERN Full-Stack Project that allows users to keep track of their significant contacts for dating or connection purposes. TABS allows users to create an authenticated account. Once an account is created, the user can then add contact entries with pertinenet details of the person of interest such as name, age, location, a short quip to remember them by and even upload a contact photo. When a user logs in, they will see their contacts rendered on the page. If a user is more interested in a person, the "fire" icon may be clicked. Then these contacts will be filtered to the top of the page. Alternately, if a user is not as interested in a contact or find out derrogutory news, the contact may be "put on ice" by clicking the "ice" icon, rendering these contacts to the bottom onf the page. Contact cards may be edited at any time, added or dleeted by the user. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+User Story:
+AS a User
+I want an app that can store my contacts
+THEN I can add, edit and delete contacts as needed
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Live Link](#live-link)
+  - [Technologies Used](#technologies)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [Future Developments](#futuredev)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Link
 
-### `npm run build`
+Here is a link to a Live Demo: [https://tabs-trial-2.herokuapp.com/](https://tabs-trial-2.herokuapp.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Awesome feature 1
+- Awesome feature 2
+- Awesome feature 3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Secure Login
+- Contacts rendered are specific to the logged in User
+- Click "fire" for interests, click "ice" to push the less interesting connections to the bottom of the page
+- Add, Edit, and Delete contacts at any time
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Screenshots
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Future Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Render "fire" and "ice" icons
+- Make an edit link so a contact may be updated
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing Team Members
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Terry Theiss](https://github.com/ttheis1611)
 
-### Code Splitting
+[Ryan Pena](https://github.com/ryanspena)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Anderson Buzzi](https://github.com/andybuzzi)
 
-### Analyzing the Bundle Size
+[Nancy Rosas](https://github.com/nancyrosas0)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Clifford Crowell](https://github.com/cliffybar)
 
-### Making a Progressive Web App
+[Emily Salinas](https://github.com/Emilyrh1058)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Questions
+ 
+You can submit any questions by emailing a team member.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Terry Theiss <a href="mailto:tltheis@prodigy.net?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-### Deployment
+Ryan Pena <a href="mailto:ryanspena@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Anderson Buzzi <a href="mailto:andibuzzi@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-### `npm run build` fails to minify
+Nancy Rosas <a href="mailto:nancyrosas0@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clifford Crowell <a href="mailto:crowellclifford@utexas.edu?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> 
+
+Emily Salinas <a href="mailto:emilyrh1058@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> 
