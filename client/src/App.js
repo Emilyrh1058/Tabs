@@ -1,28 +1,38 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { ApolloProvider } from '@apollo/client';
-import ApolloClient from 'apollo-boost';
-//import "/dist/css/bootstrap.min.css";
-// import { Container } from "react-bootstrap";
+import { ApolloProvider } from "@apollo/client";
+import ApolloClient from "apollo-boost";
+import "bootstrap/dist/css/bootstrap.min.css";
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./App.css";
 import Background from "./components/Background";
 import LoginForm from "./pages/LoginForm";
-import Signup from './pages/Signup';
-import LoginPage from './components/Login'
+import Signup from "./pages/Signup";
+import LoginPage from "./components/Login";
 import Cards from "./components/Cards/";
-import SocialCardPage from "./components/SocialCard/SocialApp";
+import Contacts from "./pages/Contacts";
+import Nav from "./components/Nav";
+
+// function App() {
+//   return (
+//     <Router>
+//       <Route exact path="/" component={Background} />
+//       <Route exact path="/contacts" component={Contacts} />
+//     </Router>
+//   );
+// }
 
 const client = new ApolloClient({
-  request: operation => {
-    const token = localStorage.getItem('id_token');
+  request: (operation) => {
+    const token = localStorage.getItem("id_token");
 
     operation.setContext({
       headers: {
-        authorization: token ? `Bearer ${token}` : ''
-      }
+        authorization: token ? `Bearer ${token}` : "",
+      },
     });
   },
-  uri: '/graphql'
+  uri: "/graphql",
 });
 
 
@@ -44,7 +54,7 @@ function App() {
                 <Route exact path="/social" component={SocialCardPage} />
                 {/* <Route component={NoMatch} /> */}
               </Switch>
-            </div>  
+            </div>
           </div>
         </Router>
       </ApolloProvider>
@@ -57,7 +67,6 @@ function App() {
           Log In
         </a> */}
       </main>
-
     </React.Fragment>
   );
 }
