@@ -60,7 +60,7 @@ Here is a link to a Live Demo: [https://tabs-trial-2.herokuapp.com/](https://tab
 
 - Contacts "/contacts"
 
-![image](https://user-images.githubusercontent.com/77172183/126911718-61dcc754-4a8f-4684-bacf-ee3008d76871.png)
+![image](https://user-images.githubusercontent.com/77172183/126911813-37b1cc9b-4344-4f57-8642-03c52f799105.png)
 
 ## Future Development
 
