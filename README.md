@@ -56,11 +56,11 @@ Here is a link to a Live Demo: [https://tabs-trial-2.herokuapp.com/](https://tab
 ## Screenshots
 - Homepage
 
-![image](https://user-images.githubusercontent.com/77172183/126910619-5a22fe31-0b28-414d-9da0-de0f2403edb2.png)
+![image](https://user-images.githubusercontent.com/77172183/126911858-f72b836d-3fff-4150-9a91-ef532d90225e.png)
 
 - Contacts "/contacts"
 
-![image](https://user-images.githubusercontent.com/77172183/126911813-37b1cc9b-4344-4f57-8642-03c52f799105.png)
+![image](https://user-images.githubusercontent.com/77172183/126911866-0a36890d-fe50-46f9-bfbd-a13ccb7bb677.png)
 
 ## Future Development
 
