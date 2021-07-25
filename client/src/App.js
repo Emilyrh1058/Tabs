@@ -1,20 +1,70 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { ApolloProvider } from "@apollo/client";
+import ApolloClient from "apollo-boost";
 import "bootstrap/dist/css/bootstrap.min.css";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./App.css";
 import Background from "./components/Background";
-// import Login from "./components/Login";
+import LoginForm from "./pages/LoginForm";
+import Signup from "./pages/Signup";
+import LoginPage from "./components/Login";
 import Cards from "./components/Cards/";
 import Contacts from "./pages/Contacts";
 import Nav from "./components/Nav";
 
+// function App() {
+//   return (
+//     <Router>
+//       <Route exact path="/" component={Background} />
+//       <Route exact path="/contacts" component={Contacts} />
+//     </Router>
+//   );
+// }
+
+const client = new ApolloClient({
+  request: (operation) => {
+    const token = localStorage.getItem("id_token");
+
+    operation.setContext({
+      headers: {
+        authorization: token ? `Bearer ${token}` : "",
+      },
+    });
+  },
+  uri: "/graphql",
+});
+
 function App() {
   return (
-    <Router>
-      <Route exact path="/" component={Background} />
-      <Route exact path="/contacts" component={Contacts} />
-    </Router>
+    <React.Fragment>
+      <ApolloProvider client={client}>
+        <Router>
+          <div className="flex-column justify-flex-start min-100-vh">
+            <LoginPage />
+            <div className="container">
+              <Switch>
+                <Route exact path="/login" component={LoginForm} />
+                <Route exact path="/signup" component={Signup} />
+                {/* <Route exact path="/profile/:username?" component={Profile} /> */}
+                <Route exact path="/" component={Background} />
+                <Route exact path="/contacts" component={Cards} />
+                {/* <Route component={NoMatch} /> */}
+              </Switch>
+            </div>
+          </div>
+        </Router>
+      </ApolloProvider>
+      <main>
+        <Background></Background>
+        {/* <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
+          Register
+        </a>
+        <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
+          Log In
+        </a> */}
+      </main>
+    </React.Fragment>
   );
 }
 
