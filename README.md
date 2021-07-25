@@ -6,7 +6,8 @@
 
 MERN Full-Stack Project
 
-TABS is an MERN Full-Stack Project that allows users to keep track of their significant contacts for dating or connection purposes. TABS allows users to create an authenticated account. Once an account is created, the user can then add contact entries with pertinenet details of the person of interest such as name, age, location, a short quip to remember them by and even upload a contact photo. When a user logs in, they will see their contacts rendered on the page. If a user is more interested in a person, the "fire" icon may be clicked. Then these contacts will be filtered to the top of the page. Alternately, if a user is not as interested in a contact or find out derrogutory news, the contact may be "put on ice" by clicking the "ice" icon, rendering these contacts to the bottom onf the page. Contact cards may be edited at any time, added or dleeted by the user. 
+TABS is an MERN Full-Stack Project that allows users to keep track of their significant contacts for dating or connection purposes. TABS allows users to create an authenticated account. Once an account is created, the user can then add contact entries with pertinenet details of the person of interest such as name, age, location, a short quip to remember them by and even upload a contact photo. 
+When a user logs in, they will see their contacts rendered on the page. If a user is more interested in a person, the "fire" icon may be clicked. Then these contacts will be filtered to the top of the page. Alternately, if a user is not as interested in a contact or find out derrogutory news, the contact may be "put on ice" by clicking the "ice" icon, rendering these contacts to the bottom onf the page. Contact cards may be edited at any time, added or dleeted by the user. 
 
 User Story:
 AS a User
@@ -32,9 +33,18 @@ Here is a link to a Live Demo: [https://tabs-trial-2.herokuapp.com/](https://tab
 
 ## Technologies Used
 
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- MongoDB
+- Express
+- React
+- Node
+- HTML
+- CSS
+- JavaScript
+- Apollo Server
+- GraphQL
+- JWT
+- React-Bootstrap
+- Heroku
 
 ## Features
 
@@ -44,11 +54,18 @@ Here is a link to a Live Demo: [https://tabs-trial-2.herokuapp.com/](https://tab
 - Add, Edit, and Delete contacts at any time
 
 ## Screenshots
+- Homepage
+![image](https://user-images.githubusercontent.com/77172183/126910619-5a22fe31-0b28-414d-9da0-de0f2403edb2.png)
+
+- Contacts "/contacts"
+![image](https://user-images.githubusercontent.com/77172183/126911718-61dcc754-4a8f-4684-bacf-ee3008d76871.png)
 
 ## Future Development
 
-- Render "fire" and "ice" icons
-- Make an edit link so a contact may be updated
+- Make "fire" and "ice" icons functional to render "fire" contacts at the top and "iced" contacts at the bottom of the list
+- Make an edit link so a contact may be updated from form
+- Allow uploading of photo from computer or phone
+- Expand information categories to include social media links, etc.
 
 ## License
 
