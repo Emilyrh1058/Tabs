@@ -1,114 +1,105 @@
-# Tabs
-[![Issues](https://img.shields.io/github/forks/Emilyrh1058/Tabs)](https://github.com/https://github.com/Emilyrh1058/Tabs/tree/main/Tabs/issues)  ![Issues](https://img.shields.io/github/issues/Emilyrh1058/Tabs) ![Issues](https://img.shields.io/github/stars/Emilyrh1058/Tabs) ![MIT License](https://img.shields.io/badge/license-MIT-blue)
+# Rate Your Bootcamp Website 
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
-A react application that works like a little black book for a user that wants to keep contacts in a location with a password to protect it. The user is also allowed to mark the contact as on "Fire" or on "Ice". 
 
-Hello?
-Hey hun, what’s up, what are you doing?
-Not much, I was just hanging out and was thinking about everything going on. I’m so excited to start dating again.
-RIGHT?!? Getting back out there.
-Yeah, but I’m having trouble keeping up with the people I’m dating. I went on this one date, and I kept not wanting to say the wrong name. I wish there were a way I could keep up with all these people I have connected with, but I don’t want them in just my phone or in the dating app.
-LOL
-So this thing came up on my IG called TABS. It’s supposed to handle all of that information for you. For example, you’re able to add cards, edit them, and delete them. Apparently, they created it for people like us who want a place to house all these contacts without them being out in the open on your phone! Like once you connect with someone, you can an entire card with their picture, name, location. I heard you can even add notes about them like that one guy you dated who we called the hipster bc he wouldn’t shut up about IPAs LOL. So far it’s easy to use—it’s my little black book on my phone ha ha ha
-It’s so funny too bc if you’re not feeling someone for a bit, you can put them on ice or if you’re digging them, you can click the fire icon and it takes your faves to the top of your list. It’s like my fave new thing right now.
-TABS is so reliable too. It’s created with MongoDB, Express js, React and Node. You have to create a login to view your contacts and it’s super safe with password authentication, so no need to worry about someone seeing your hunnies or exposing your contact list.
-It runs concurrent servers so everything loads fast and beautifully. TBH, this app is pretty sexy. I heard that there was extensive testing with GraphQL too, whatever that means, but someone put in a lot of work.
+MERN Full-Stack Project
 
-## Contents
-* [Installation](#installation)
-* [Usage](#usage)
-   * [Screenshots](#screenshots)
-* [Contributing](#contributing)
-* [Credits](#credits)
-* [Questions](#questions)
-* [License](#license)
-* [Tests](#tests)
+TABS is an MERN Full-Stack Project that allows users to keep track of their significant contacts for dating or connection purposes. TABS allows users to create an authenticated account. Once an account is created, the user can then add contact entries with pertinenet details of the person of interest such as name, age, location, a short quip to remember them by and even upload a contact photo. 
+When a user logs in, they will see their contacts rendered on the page. If a user is more interested in a person, the "fire" icon may be clicked. Then these contacts will be filtered to the top of the page. Alternately, if a user is not as interested in a contact or find out derrogutory news, the contact may be "put on ice" by clicking the "ice" icon, rendering these contacts to the bottom onf the page. Contact cards may be edited at any time, added or dleeted by the user. 
 
+User Story:
+AS a User
+I want an app that can store my contacts
+THEN I can add, edit and delete contacts as needed
 
-## Installation
-This application needs to install: 
-```
-Apollo, React, React-Router-DOM
-```
-  
-## Usage
-NPM, GraphQL, MongoDB, Deployed in Heroku 
-  
-### Screenshots
-![Landing Smoke](C:\Users\tlthe\Documents\blended-bootcamp\Challenges\Tabs\client\src\assets\images\TabsDemo.mp4)
-Tabs Login 
+## Table of Contents
 
-## Contributing
-Be kind and develop like no other
-  
-## Credits
-* [Terry Theis, Ryan Pena, Anderson Buzzi, Nancy Rosas, Clifford Crowell, Emily Salinas](https://docs.google.com/presentation/d/1puFKQgFHmYAdv8WmBIgZUqoQklr6cN5uQQHeLGEVVFQ/edit#slide=id.ge51d4c6f81_1_27)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Live Link](#live-link)
+  - [Technologies Used](#technologies)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [Future Developments](#futuredev)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
-  
-## Questions
-Created by https://github.com/Emilyrh1058/Tabs/tree/main. 
-      If you have any questions about this repo, please contact me at tltheis@prodigy.net.
-  
+## Live Link
+
+Here is a link to a Live Demo: [https://tabs-trial-2.herokuapp.com/](https://tabs-trial-2.herokuapp.com/)
+
+## Technologies Used
+
+- MongoDB
+- Express
+- React
+- Node
+- HTML
+- CSS
+- JavaScript
+- Apollo Server
+- GraphQL
+- JWT
+- React-Bootstrap
+- Heroku
+
+## Features
+
+- Secure Login
+- Contacts rendered are specific to the logged in User
+- Click "fire" for interests, click "ice" to push the less interesting connections to the bottom of the page
+- Add, Edit, and Delete contacts at any time
+
+## Screenshots
+- Homepage
+
+![image](https://user-images.githubusercontent.com/77172183/126911858-f72b836d-3fff-4150-9a91-ef532d90225e.png)
+
+- Contacts "/contacts"
+
+![image](https://user-images.githubusercontent.com/77172183/126911866-0a36890d-fe50-46f9-bfbd-a13ccb7bb677.png)
+
+## Future Development
+
+- Make "fire" and "ice" icons functional to render "fire" contacts at the top and "iced" contacts at the bottom of the list
+- Make an edit link so a contact may be updated from form
+- Allow uploading of photo from computer or phone
+- Expand information categories to include social media links, etc.
+
 ## License
-This application is covered under MIT.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0)
 
-## Tests
-### `npm test`
+## Contributing Team Members
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Terry Theiss](https://github.com/ttheis1611)
 
-### `npm run build`
+[Ryan Pena](https://github.com/ryanspena)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Anderson Buzzi](https://github.com/andybuzzi)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Nancy Rosas](https://github.com/nancyrosas0)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Clifford Crowell](https://github.com/cliffybar)
 
-### `npm run eject`
+[Emily Salinas](https://github.com/Emilyrh1058)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Questions
+ 
+You can submit any questions by emailing a team member.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Terry Theiss <a href="mailto:tltheis@prodigy.net?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Ryan Pena <a href="mailto:ryanspena@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-## Learn More
+Anderson Buzzi <a href="mailto:andibuzzi@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Nancy Rosas <a href="mailto:nancyrosas0@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clifford Crowell <a href="mailto:crowellclifford@utexas.edu?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> 
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Emily Salinas <a href="mailto:emilyrh1058@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> 
