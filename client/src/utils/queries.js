@@ -24,3 +24,4 @@ export const QUERY_POST = gql`
     }
   }
 `;
+

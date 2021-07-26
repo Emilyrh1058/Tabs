@@ -1,17 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+<<<<<<< HEAD
 import { ApolloProvider } from "@apollo/client";
 import ApolloClient from "apollo-boost";
 import "bootstrap/dist/css/bootstrap.min.css";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./App.css";
+=======
+import { ApolloProvider } from '@apollo/client';
+import ApolloClient from 'apollo-boost';
+//import "/dist/css/bootstrap.min.css";
+// import { Container } from "react-bootstrap";
+import "./index.css";
+>>>>>>> 89e2d50aeffa6c5b0b4fc4b0825cb0e25eaa5831
 import Background from "./components/Background";
 import LoginForm from "./pages/LoginForm";
 import Signup from "./pages/Signup";
 import LoginPage from "./components/Login";
 import Cards from "./components/Cards/";
 import Contacts from "./pages/Contacts";
-import Nav from "./components/Nav";
+// import Nav from "./components/Nav";
 
 // function App() {
 //   return (
@@ -21,6 +29,10 @@ import Nav from "./components/Nav";
 //     </Router>
 //   );
 // }
+<<<<<<< HEAD
+=======
+import SocialCardPage from "./components/SocialCard/SocialApp";
+>>>>>>> 89e2d50aeffa6c5b0b4fc4b0825cb0e25eaa5831
 
 const client = new ApolloClient({
   request: (operation) => {
@@ -32,7 +44,7 @@ const client = new ApolloClient({
       },
     });
   },
-  uri: "/graphql",
+  uri: "http://localhost:5000/graphql",
 });
 
 
@@ -57,7 +69,7 @@ function App() {
             </div>
           </div>
         </Router>
-      </ApolloProvider>
+ 
       <main>
         <Background></Background>
         {/* <a className="App-link" href="" target="_blank" rel="noopener noreferrer">
@@ -67,6 +79,7 @@ function App() {
           Log In
         </a> */}
       </main>
+         </ApolloProvider>
     </React.Fragment>
   );
 }

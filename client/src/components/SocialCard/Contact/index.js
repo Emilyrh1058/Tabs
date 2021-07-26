@@ -49,14 +49,14 @@ function ContactForm() {
 
   return (
     <div className="card-contact">
-      <h1 data-testid="h1tag">Create Contact</h1>
+      <h1 className="contact-header" data-testid="h1tag">Create Contact</h1>
       <form id="contact-form" className="contact-card" onSubmit={handleSubmit}>
         <div>
-          <label className="contact" htmlFor="firstname">FirstName:</label>
+          <label className="contact" htmlFor="firstname">First Name:</label>
           <input className="input" type="text" name="name" defaultValue={firstname} onBlur={handleChange} />
         </div>
         <div>
-          <label className="contact" htmlFor="lastname">LastName:</label>
+          <label className="contact" htmlFor="lastname">Last Name:</label>
           <input className="input" type="text" name="name" defaultValue={lastname} onBlur={handleChange} />
         </div>
         <div>
