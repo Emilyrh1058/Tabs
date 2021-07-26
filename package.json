@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "proxy": "http://mybackend.mycloudidehost.c9.io"
 }
